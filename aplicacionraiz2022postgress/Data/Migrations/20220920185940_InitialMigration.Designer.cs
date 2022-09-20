@@ -12,8 +12,8 @@ using aplicacionraiz2022postgress.Data;
 namespace aplicacionraiz2022postgress.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220910033149_Initial1112Migration")]
-    partial class Initial1112Migration
+    [Migration("20220920185940_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -69,7 +69,7 @@ namespace aplicacionraiz2022postgress.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("t_Contacto");
+                    b.ToTable("t_contacto");
                 });
 
             modelBuilder.Entity("aplicacionraiz2022postgress.Models.Producto", b =>

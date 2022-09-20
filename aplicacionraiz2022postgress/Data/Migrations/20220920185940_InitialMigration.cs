@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace aplicacionraiz2022postgress.Data.Migrations
 {
-    public partial class Initial1112Migration : Migration
+    public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -50,7 +50,7 @@ namespace aplicacionraiz2022postgress.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "t_Contacto",
+                name: "t_contacto",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "integer", nullable: false)
@@ -65,7 +65,7 @@ namespace aplicacionraiz2022postgress.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_t_Contacto", x => x.id);
+                    table.PrimaryKey("PK_t_contacto", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -281,7 +281,7 @@ namespace aplicacionraiz2022postgress.Data.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "t_Contacto");
+                name: "t_contacto");
 
             migrationBuilder.DropTable(
                 name: "t_proforma");
