@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjBLw5BG6wdrWuDYtAchu04pOsZJs4D9S3jHP6foLz/PSr7p4r9L0rHF/k0qzIgh4nv7HcR1VHr0SwmvxDp1HA==",
+  "dgSpecHash": "GmLuvbcAzTTK8lNjszlUw0BEIzqKydLSksYMDDAsYMWta3S8RGjAV2AQ07QaBPNjJgtpoIaaiuOetc+ZbWz04g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Escritorio\\FinalProySoftware2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
+  "projectFilePath": "c:\\Users\\diego\\OneDrive\\Escritorio\\FinalProy\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
