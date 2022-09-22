@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+KZtPTiVO/jWK8u/6BR0Qu8vTX3X9RLmoPJafALo1yk=",
+  "Hash": "HcY37laPS9Inozs4Yqc4Gcps5Z8V+K7H/mccsPBkrOg=",
   "Source": "aplicacionraiz2022postgress",
   "BasePath": "_content/aplicacionraiz2022postgress",
   "Mode": "Default",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\oferta6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\OneDrive\\Escritorio\\FinalProySoftware2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress\\wwwroot\\images\\ordoñez.png",
+      "SourceId": "aplicacionraiz2022postgress",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\OneDrive\\Escritorio\\FinalProySoftware2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress\\wwwroot\\",
+      "BasePath": "_content/aplicacionraiz2022postgress",
+      "RelativePath": "images/ordoñez.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ordoñez.png"
     },
     {
       "Identity": "C:\\Users\\diego\\OneDrive\\Escritorio\\FinalProySoftware2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress\\wwwroot\\images\\salas.jpg",
