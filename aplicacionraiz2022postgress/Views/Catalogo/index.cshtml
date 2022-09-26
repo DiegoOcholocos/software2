@@ -59,6 +59,7 @@
                   <h4 class="card-title" style="color:red">@Html.DisplayFor(modelItem => item.Name)</h4>
                   <p class="card-text" style="font-size: 24px;font-weight: bold;color:red">S/. @Html.DisplayFor(modelItem => item.Precio)       
                   <p class="card-text" style="font-size: 16px;color: #949794;font-weight: bold;text-decoration-line: line-through;"> Precio Original: S/. @Html.DisplayFor(modelItem => item.PorcentajeDescuento)</p></p>
+                  <a class="btn btn-info" asp-action="Add" asp-route-id="@item.Id">Agregar al Carrito</a>
                   <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
                 </div>
               </div>
