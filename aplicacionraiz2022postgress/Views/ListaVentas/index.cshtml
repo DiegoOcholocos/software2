@@ -15,10 +15,13 @@
                 @Html.DisplayNameFor(model => listItemsPago.FirstOrDefault().Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => listItemsPago.FirstOrDefault().NombreTarjeta)
+                Nombre 
             </th>
             <th>
-                @Html.DisplayNameFor(model => listItemsPago.FirstOrDefault().NumeroTarjeta)
+                DNI
+            </th>
+            <th>
+                Fecha de Facturacion
             </th>
             <th>
                 @Html.DisplayNameFor(model => listItemsPago.FirstOrDefault().MontoTotal)
@@ -41,6 +44,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.NumeroTarjeta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentDate)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.MontoTotal)
