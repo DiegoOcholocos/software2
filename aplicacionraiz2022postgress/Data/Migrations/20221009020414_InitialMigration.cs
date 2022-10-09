@@ -4,9 +4,9 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace aplicacionraiz2022postgress.Migrations
+namespace aplicacionraiz2022postgress.Data.Migrations
 {
-    public partial class Initial1111123Migration : Migration
+    public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

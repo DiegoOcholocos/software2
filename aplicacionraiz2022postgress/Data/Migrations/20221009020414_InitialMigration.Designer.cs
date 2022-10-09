@@ -9,11 +9,11 @@ using aplicacionraiz2022postgress.Data;
 
 #nullable disable
 
-namespace aplicacionraiz2022postgress.Migrations
+namespace aplicacionraiz2022postgress.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220930035202_Initial1111123Migration")]
-    partial class Initial1111123Migration
+    [Migration("20221009020414_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
