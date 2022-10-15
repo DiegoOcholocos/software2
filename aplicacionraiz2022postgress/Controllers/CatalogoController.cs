@@ -70,7 +70,7 @@ namespace aplicacionraiz2022postgress.Controllers
             return View(objProduct);
         }
 
-        public async Task<IActionResult> Add(int? id){
+        public async Task<IActionResult> Add(int? id,int? canti){
             var userID = _userManager.GetUserName(User);
             if(userID == null){
                 ViewData["Message"] = "Por favor debe loguearse antes de agregar un producto";
@@ -81,7 +81,7 @@ namespace aplicacionraiz2022postgress.Controllers
                 Proforma proforma = new Proforma();
                 proforma.Producto = producto;
                 proforma.Precio = (decimal)producto.Precio;
-                proforma.Cantidad = 1;
+                proforma.Cantidad = (int)canti;
                 proforma.UserID = userID;
                 _context.Add(proforma);
                 await _context.SaveChangesAsync();
