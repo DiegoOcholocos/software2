@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj": {}
+    "D:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj": {}
   },
   "projects": {
-    "d:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj": {
+    "D:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
+        "projectUniqueName": "D:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
         "projectName": "aplicacionraiz2022postgress",
-        "projectPath": "d:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
+        "projectPath": "D:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "d:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\obj\\",
+        "outputPath": "D:\\2023\\USMP 22-2\\SOFTWARE\\Proyecto\\software2\\aplicacionraiz2022postgress\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
