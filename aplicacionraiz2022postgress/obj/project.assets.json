@@ -10333,19 +10333,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\Alexander\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\2023\\USMP 22-2\\SOFTWARE\\Desarrollo\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
+      "projectUniqueName": "c:\\Users\\Alexander\\Desktop\\soft2\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
       "projectName": "aplicacionraiz2022postgress",
-      "projectPath": "d:\\2023\\USMP 22-2\\SOFTWARE\\Desarrollo\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "d:\\2023\\USMP 22-2\\SOFTWARE\\Desarrollo\\software2\\aplicacionraiz2022postgress\\obj\\",
+      "projectPath": "c:\\Users\\Alexander\\Desktop\\soft2\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
+      "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Alexander\\Desktop\\soft2\\software2\\aplicacionraiz2022postgress\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

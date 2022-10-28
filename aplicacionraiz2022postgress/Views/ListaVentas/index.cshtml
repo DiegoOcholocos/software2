@@ -6,11 +6,20 @@
     IEnumerable<aplicacionraiz2022postgress.Models.Pago> listItemsPago = new List<Pago>();
     listItemsPago = @Model.elementosDatos;
 }
+    <!-- Linea de codigo para llamar librerias -->
+    <script src="https://unpkg.com/xlsx@0.16.9/dist/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/file-saverjs@latest/FileSaver.min.js"></script>
+    <script src="https://unpkg.com/tableexport@latest/dist/js/tableexport.min.js"></script>
+
 <h1>@ViewData["Title"]</h1>
 
-<table class="table">
+<table class="table" id="tabla" >
     <thead>
         <tr>
+            <button id="btnExportar" class="btn btn-success">
+                <i class="fas fa-file-excel"></i> Exportar datos a Excel
+            </button>
+
             <th>
                 @Html.DisplayNameFor(model => listItemsPago.FirstOrDefault().Id)
             </th>
@@ -55,8 +64,30 @@
                 @Html.DisplayFor(modelItem => item.UserID)
             </td>
             <td>
+               
                <a class="btn btn-info" asp-controller="ListaVentas" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+        
+            </td>
         </tr>
 }
     </tbody>
 </table>
+
+<!-- script para exportar a excel -->
+<script>
+    const $btnExportar = document.querySelector("#btnExportar"),
+    $tabla = document.querySelector("#tabla");
+    $btnExportar.addEventListener("click", function() {
+    let tableExport = new TableExport($tabla, {
+    exportButtons: false, 
+    filename: "Reporte de Ventas",  
+    sheetname: "Reporte de Ventas",
+    });
+    let datos = tableExport.getExportData();
+    let preferenciasDocumento = datos.tabla.xlsx;
+    tableExport.export2file(preferenciasDocumento.data, preferenciasDocumento.mimeType, 
+    preferenciasDocumento.filename, preferenciasDocumento.fileExtension, preferenciasDocumento.merges, 
+    preferenciasDocumento.RTL, preferenciasDocumento.sheetname);
+    });
+</script>
+
