@@ -28,7 +28,7 @@ namespace aplicacionraiz2022postgress.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([Bind("Id,name,email,numero,subject,comment,AnotacionAdmin,Status")] Contacto contacto)
+        public async Task<IActionResult> Index([Bind("Id,name,email,numero,subject,comment,AnotacionAdmin,Status")] Contacto contacto)
         {
             if (ModelState.IsValid){
             _context.Add(contacto);

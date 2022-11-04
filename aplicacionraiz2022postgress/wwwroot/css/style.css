@@ -38,7 +38,6 @@
 }
 
 /*Hero*/
-
 .hero {
     width: 100%;
     height: 70vh;
@@ -47,12 +46,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-}
-
-.circle {
-    font-size: 1.5rem;
-    color: #3bcc75;
-    margin: 0 1.6rem;
 }
 
 .he-des h5 {
@@ -85,14 +78,8 @@
     background-color: #3bcc75;
 }
 
-
-.global {
-    text-align: center;
-    margin-top: 3.9rem;
-}
-
 .dis-sto .global {
-    margin-top: 6.9rem;
+    margin-top: 1.9rem;
 }
 
 .global .circle {
