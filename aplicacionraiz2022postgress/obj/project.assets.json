@@ -10333,24 +10333,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\diego\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2023\\USMP 22-2\\SOFTWARE\\Desarrollo\\P\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
+      "projectUniqueName": "c:\\Users\\diego\\OneDrive\\Escritorio\\app2022-final\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
       "projectName": "aplicacionraiz2022postgress",
-      "projectPath": "D:\\2023\\USMP 22-2\\SOFTWARE\\Desarrollo\\P\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\2023\\USMP 22-2\\SOFTWARE\\Desarrollo\\P\\aplicacionraiz2022postgress\\obj\\",
+      "projectPath": "c:\\Users\\diego\\OneDrive\\Escritorio\\app2022-final\\software2\\aplicacionraiz2022postgress\\aplicacionraiz2022postgress.csproj",
+      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\diego\\OneDrive\\Escritorio\\app2022-final\\software2\\aplicacionraiz2022postgress\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10422,7 +10428,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
